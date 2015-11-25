@@ -1,0 +1,250 @@
+body {
+	background: #f5f5f5;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.p-body {
+	padding: 48px 8px 8px;
+	
+}
+
+.p-header {
+	width: 100%;
+	height: 370px;
+	background:#3A2B52 url(/img/_minflat__dark_material_design_wallpaper__4k__by_dakoder-d8fjqzu.jpg) no-repeat;
+	background-size: cover;
+}
+
+.p-header__inner {
+	position: relative;
+	display: block;
+	padding: 120px 400px 0px 120px;
+}
+
+.p-header__tab-bar {
+	background-color: #4527A0;
+	
+}
+
+.section__center {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.gallery__img {
+	width: 600px;
+	height: 500px;
+}
+
+.md-item {
+	border-radius: 2px;
+	vertical-align: top;
+	background-color: #FFF;
+	display: inline-block;
+	margin-bottom: 48px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.gallery__dscrp {
+	margin-left: 20px;
+	width: 300px;
+	height: auto;
+	box-shadow: none;
+	background-color: #f5f5f5;
+}
+
+.md-item__text {
+	color: #616161;
+	margin: 40px;
+	width: calc(100% - 80px);
+}
+
+.md-item__link {
+	box-sizing: border-box;
+	border-top: 1px solid rgba(0, 0, 0, 0.12);
+	background-color: transparent;
+    font-size: 16px;
+    line-height: normal;
+    padding: 8px 0px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+
+.md__btn {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 2px;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 36px;
+    letter-spacing: 0;
+    line-height: 36px;
+    min-width: 64px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1) 0s, background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    vertical-align: middle;
+    will-change: box-shadow, transform;
+}
+
+.md__btn {
+	color: #00bcd4;
+}
+
+
+.logo {
+	line-height: 30px;
+	width: 400px;
+	position: relative;
+	display: block;
+	text-decoration: none;
+	color: #F5F5f5;
+	font-size: 36px;	
+}
+
+.slogan {
+	font-size: 22px;
+}
+
+.soc-set {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.soc-set__item--dib {
+	display: inline-block;
+}
+
+.svg-icon {
+	fill: #55446E;
+}
+
+.soc-set__item:hover .svg-icon {
+	fill: #fff;
+}
+
+.svg-icon--black {
+	fill: #212121;
+}
+
+.about {
+	overflow: hidden;
+	width: 100%;
+	background-color: #FFF;
+	padding-bottom: 30px;	
+}
+
+.about__title {
+	font-size: 22px;
+	color: #3A2B52;
+	font-weight: 500;
+}
+
+.about__col {
+	vertical-align: top;
+	display: inline-block;
+	margin-left: -4px;
+	text-align: left;
+}
+
+.about__left {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	    padding-right: 60px;
+	    width: 59%;
+	    margin-left: 4px;
+}
+
+.about__right {
+	width: 40%;
+}
+
+
+.md-list {
+	font-size: 14px;
+	list-style-type: none;
+	color: #212121;
+	margin-bottom: 30px;
+}
+
+.col__title {
+	font-size: 16px;
+	color: #212121;
+	font-weight: 500;
+	margin-top: 0;
+}
+
+.text {
+	color: #212121;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.md-list__item {
+	position: relative;
+	color: #212121;
+	margin-top: 5px;
+}
+
+.md-list__item span {
+	font-size: 13px;
+	
+}
+
+
+.md-list__item::before {
+    content: "•";
+    font-size: 16px;
+    left: -28px;
+    position: absolute;
+    color: #212121;
+}
+
+.section__title {
+	color: #4A148C;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 40px 0 0 0;
+	margin-bottom: 40px;
+}
+
+.soc-set__link {
+	text-align: center;
+	text-decoration: none;
+	line-height: 26px;
+	vertical-align: top;
+	color: #212121;
+	font-size: 14px;
+	padding-left: 5px;
+	
+}
+
+.soc-set__item {
+	margin-top: 10px;
+}
+
+.p-footer {
+	color: #FFF;
+	padding: 40px 0;
+	background-color: #212121;
+	text-align: center;
+	
+}
+
+.p-header__title {
+	float: right;
+	}

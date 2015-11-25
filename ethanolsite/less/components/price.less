@@ -1,0 +1,124 @@
+.price {
+    &__main {
+    	
+    }
+	&__item {
+		position: relative;
+		margin-top: 100px;
+		float: left;
+		width: 32%;
+		text-align: center;
+		border: 1px solid #333;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
+		z-index: 10;
+		
+	}
+
+
+}
+.price-card {
+	&__title {
+		margin-top: 0;
+		background-color: #333;
+		color: #fff;
+		padding: 30px 0;
+    	}
+
+	&__price {
+
+		position: relative;
+		color: #666;
+		font-size: 65px;
+		font-weight: bold;
+		border-bottom: 1px solid #333;
+		padding-bottom: 20px;
+
+		
+		.dollar {
+		position: relative;
+		top: 10px;		
+		font-size: 40px;
+		vertical-align: top;
+		}
+
+		.month {
+			font-size: 30px;
+			font-weight: normal;
+		} 
+		
+	}
+
+	&__info {
+		padding: 20px 80px;
+		line-height: 3;
+	}
+
+	&__btn {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 11px;
+	display: inline-block;
+	font-weight: bold;
+	padding: 20px 80px;
+	color: #FFF;
+	background-color: #333;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	cursor: pointer;
+	
+		&:hover {
+				background-color: lighten(#333, 10%);
+			}
+	}
+
+	&__period {
+		margin: 10px 0;
+	}
+	}
+
+	.price__item--active {
+		position: relative;
+		width: 36%;
+		z-index: 4;
+		border: 1px solid @site-color;
+		-webkit-box-shadow: 1px 0px 10px 0px rgba(50, 50, 50, 0.2), -1px 0px 10px 0px rgba(50, 50, 50, 0.2);
+		-moz-box-shadow:    1px 0px 10px 0px rgba(50, 50, 50, 0.2), -1px 0px 10px 0px rgba(50, 50, 50, 0.2);
+		box-shadow:         1px 0px 10px 0px rgba(50, 50, 50, 0.2), -1px 0px 10px 0px rgba(50, 50, 50, 0.2);
+	
+		margin-top: 80px;
+		.price-card__title {
+			background-color: @site-color;
+		}
+
+		.price-card__title {
+			padding: 35px;
+		}
+
+		.price-card__price {
+			margin-top: 0;
+			padding: 30px 0;
+		}
+
+		.price-card__info {
+			line-height: 4;
+		}
+
+		.price-card__btn {
+			margin-top: 30px;
+			background-color: @site-color;
+			
+			&:hover {
+				background-color: darken(@site-color, 10%);
+			}
+		}
+
+	}
+
+	.price__item--brnone {
+		border-right: none;
+	}
+
+	.price__item--blnone {
+		border-left: none;
+	}

@@ -1,0 +1,181 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+
+body {
+  font-family: @font-family-base;
+  font-family: @font-family-lato;
+  font-size: @font-size-base;
+  line-height: @line-height-base;
+  color: @text-color;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.center__wrapper {
+  width: @container-desktop;
+  margin: 0 auto;
+
+}
+
+.nav-menu {
+
+  &__item {
+    float: left;  
+    margin-left: 35px;
+
+  }
+
+   &__link {
+    display: block;
+    text-decoration: none;
+    color: @list-group-link-heading-color;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 15px;
+
+
+    &:hover {
+      border-bottom: 5px solid @site-color;
+      padding-bottom: 10px;
+
+    }
+  }
+
+}
+
+
+.logo {
+    text-decoration: none;
+    font-size: 36px;
+    height: 45px;
+    color: @list-group-link-heading-color;
+   
+    
+}
+
+.logo__name {
+  margin-left: 5px;
+  vertical-align: top;
+  line-height: 40px;
+  
+}
+
+.btn-head {
+  display: inline-block;
+  width: 200px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid @site-color;
+  
+  &:hover {
+    border-bottom: 4px solid darken(@site-color, 15%);
+  }
+}
+
+
+
+.section-sign {
+  display: block;
+  text-align: center;
+  margin-top: 165px;
+  
+}
+
+.section-sign:last-child {
+  margin-top: 275px;
+  margin-bottom: 80px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: @list-group-link-heading-color;
+
+  &--yellow {
+    color: @site-color;
+  }
+
+}
+.section-slogan {
+  font-size: 22px;
+  font-style: italic;
+  color: @modal-content-fallback-border-color;
+
+}
+
+.section-sign__logo {
+  position: relative;
+ 
+
+  &:after {
+    content: '';
+    position: relative;
+    display: block;
+    top: -45px;
+    border-bottom: 2px solid #ddd;
+    z-index: 1;
+  }
+
+  .logo__image {
+    position: relative;
+    display: inline;
+    z-index: 3;
+    width: 80px;
+    height: 80px;
+    font-size: 10px;
+    background-color: #fff;
+    padding: 0 20px;
+
+    
+
+  }
+}
+.slider__controls {
+  display: block;
+
+}
+
+.slider__bullet {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+ .slider__bullet--active {
+  background-color: #bababa;
+
+ }

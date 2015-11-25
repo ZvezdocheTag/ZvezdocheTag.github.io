@@ -1,0 +1,100 @@
+.blog {
+	background-color: #f3f3f3;
+	padding-top: 105px;
+	
+	&__item {
+		margin-top: 18px;
+		margin-left: 18px;
+		background-color: #FFF;
+		display: inline-block;
+		width: 48%;
+		border: 1px solid #e5e4e4;
+		
+	}
+}
+
+.post {
+	position: relative;
+	
+	&__img {
+		padding: 0px;
+		margin: 10px;
+		width: 150px;
+		height: 150px;
+		float: left;
+		border: 1px solid #ccc;
+		
+	}
+	
+	&__dscrp {
+		margin: 10px;
+		width: 270px;
+		float: left;
+		color: #999;
+		font-size: 14px;
+	}
+
+	&__date {
+		font-size: 11px;
+	}
+
+	&__caption {
+		border-top: 1px solid #ddd;
+		clear: both;
+		padding: 10px;
+	}
+
+	&__title {
+		font-weight: bold;
+		color: #666;
+		font-size: 16px;
+	}
+
+	&__author {
+		margin: 0;
+		display: inline-block;
+		text-align: left;
+		color: @site-color;
+		text-decoration: none;
+	}
+	&__like {
+		cursor: pointer;
+		padding: 0 10px;
+		margin: 0;
+		margin-left: 110px;
+		display: inline-block;
+		text-align: right;
+		background-color: #f3f3f3;
+		-webkit-border-radius: 2px;
+		        border-radius: 2px;
+		
+		i {
+			color: red;
+			margin-right: 10px;
+		}
+	}
+	
+} 
+
+
+	.site-btn {
+		display: block;
+		width: 200px;
+		margin: 50px auto 100px auto;
+		padding: 10px 40px;
+		font-weight: bold;
+		cursor: pointer;
+		text-align: center;
+		background-color: @site-color;
+		color: #FFF;
+		-webkit-border-radius: 4px;
+		        border-radius: 4px;
+		
+		 &:hover {
+		 	background-color: darken(@site-color, 10%); 	
+		 }
+		}
+
+.post__author--grey {
+	color: #ccc;
+}

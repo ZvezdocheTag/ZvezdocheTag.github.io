@@ -1,0 +1,87 @@
+.main-sphere {
+	background-color: #f3f3f3;
+	padding-top: 105px;
+
+	&__left, &__right {
+		float: left;
+	}
+	&__right {
+		width: 580px;
+	}
+
+	&__title {
+		text-transform: uppercase;
+		font-size: 24px;
+		color: #333;
+		
+		
+	}
+
+	&__dscrp {
+		font-size: 16px;
+		color: #999;
+		margin-top: 40px;
+		
+	}
+
+	&--bg {
+		background: url(../../images/gadgets.png) no-repeat 80% 63%;
+	}
+
+
+}
+
+.sphere-list {
+	text-align: center;
+	margin: 0px 60px 230px 10px;
+	
+	&__item {
+		margin-top: 10px;
+		text-align: left;
+	}
+
+	&__link {
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #666;
+		font-size: 14px;
+		padding-top: 20px;
+		display: block;
+		width: 300px;
+		height: 90px;
+		background-color: #FFF;
+		-webkit-border-radius: 6px;
+		        border-radius: 6px;
+		border-bottom: 3px solid #ccc;
+		
+		p {
+			font-style: italic;
+			color: #999;
+			text-transform: none;
+		}
+
+		i {display: inline-block;
+			width: 80px;
+			float: left;
+			text-align: center;
+			font-size: 40px;
+			padding: 0 20px;
+			color: #333;
+		}
+
+		&:hover {
+			border-bottom: 3px solid #996600;
+		}
+		
+		&--active {
+			background-color: @site-color;
+			color: #FFF;
+			border-bottom: 3px solid #996600;
+			
+			i,p {
+				color: #FFF;
+			}
+		}
+	}
+	
+}
